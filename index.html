@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RECYCLE THE ITEMS</title>
+<link rel="stylesheet" href="style.css">
+<script src="fabric.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body class="body_background">
+	<center>
+		<h3>Press <b>the assigned buttons</b> to display the Recyclable Items. You have 30 seconds!</h3>
+		
+							
+		<canvas width="1200" height="400" id="myCanvas"></canvas>
+<br>
+        <div id="scores">Score 6 to win the game!</div><br>
+        <div id="output">Recyclable or Non Recyclable?</div>
+		<div><label>0:00</label><progress value="0" max="30" width="200" id="progressBar"></progress><label>0:30</label></div>
+
+		<h4><br>Press the assigned buttons to see if the item is Recyclable:<br>
+			<table>
+				<tr>
+					<td><button id="apple" class="editbtn" onclick="apple()">Apple</button></td>
+					<td><button id="box" class="editbtn" onclick="box()">Cardboard Box</button></td>
+					<td><button id="bulb" class="editbtn" onclick="bulb()">Light Bulb</button></td>
+				</tr>
+				<tr>
+					<td><button id="battery" class="editbtn" onclick="battery()">Battery</button></td>
+					<td><button id="can" class="editbtn" onclick="can()">Aluminium Can</button></td>
+					<td><button id="ceramic" class="editbtn" onclick="ceramic()">Ceramics</button>
+				</tr>
+				<tr>
+					<td><button id="bottle" class="editbtn" onclick="bottle()">Plastic Bottle</button></td>
+					<td><button id="glass"  class="editbtn" onclick="jar()">Glass Jar</button></td>
+					<td><button id="medical" class="editbtn" onclick="medical()">Medical Waste</button></td>
+				</tr>
+				<tr>
+					<td><button id="paper" class="editbtn" onclick="paper()">Paper</button></td>
+					<td><button id="styrofoam"  class="editbtn" onclick="styrofoam()">Styrofoam</button></td>
+					<td><button id="food" class="editbtn" onclick="food()">Food Wrapper</button></td>
+				</tr>
+				
+			</table>
+
+		</h4><br>
+		
+
+		
+		
+
+	</center>
+	<script src="main.js"></script>
+</body>
+</html>
